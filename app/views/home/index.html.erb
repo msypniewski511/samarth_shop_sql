@@ -1,5 +1,4 @@
-<%= render 'hero' %>
-
+<%= render 'hero', taxons: @taxons, taxon: @taxon %>
 <article>
   <% cache(cache_key_for_products) do %>
     <%= render 'products/products', products: @products %>
