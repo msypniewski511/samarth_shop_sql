@@ -62,6 +62,8 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  gem 'bcrypt_pbkdf', '~> 1.1'
+  gem 'ed25519'
   gem "capistrano", "~> 3.17", require: false
   gem "capistrano-rails", "~> 1.6", require: false
   gem 'capistrano-passenger'

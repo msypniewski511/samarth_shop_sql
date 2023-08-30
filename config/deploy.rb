@@ -4,6 +4,7 @@ lock "~> 3.17.3"
 set :application, "samarth_shop_sql"
 set :repo_url, "git@github.com:msypniewski511/samarth_shop_sql"
 
+set :branch, ENV['BRANCH'] if ENV['BRANCH']
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
