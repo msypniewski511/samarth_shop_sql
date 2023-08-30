@@ -9,9 +9,6 @@ gem "rails", "~> 7.0.7"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
-# Use sqlite3 as the database for Active Record
-gem "sqlite3", "~> 1.4"
-
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
 
@@ -89,6 +86,8 @@ group :test do
 end
 
 group :development, :test do
+  # Use sqlite3 as the database for Active Record
+  gem "sqlite3", "~> 1.4"
   gem "rspec-rails"
   gem "rails-controller-testing", "~> 1.0.5"
   gem "rspec-activemodel-mocks", "~> 1.1.0"
@@ -99,6 +98,10 @@ group :development, :test do
   gem "rubocop-performance", "~> 1.5"
   gem "rubocop-rails", "~> 2.3"
   gem "rubocop-rspec", "~> 2.0"
+end
+
+group :production do
+  gem "pg"
 end
 
 gem "solidus_paypal_commerce_platform", "~> 1.0"
