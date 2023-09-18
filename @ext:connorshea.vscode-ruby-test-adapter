@@ -1,0 +1,48 @@
+[2023-09-18 18:16:33.238] [INFO] Test Explorer found
+[2023-09-18 18:16:33.238] [INFO] Creating adapter for /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-18 18:16:33.238] [INFO] Initializing Ruby adapter
+[2023-09-18 18:16:33.238] [INFO] Registering adapter for /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-18 18:16:33.242] [INFO] Loading Ruby tests...
+[2023-09-18 18:16:33.242] [INFO] Loading Minitest tests...
+[2023-09-18 18:16:33.243] [INFO] Getting a list of Minitest tests in suite with the following command: bundle exec rake -R $EXT_DIR vscode:minitest:list
+[2023-09-18 18:16:33.280] [INFO] Initialization finished
+[2023-09-18 18:16:33.365] [INFO] Configuration changed
+[2023-09-18 18:16:33.489] [INFO] Configuration changed
+[2023-09-18 18:16:33.631] [INFO] Configuration changed
+[2023-09-18 18:16:34.935] [ERROR] Error while finding Minitest test suite: Command failed: bundle exec rake -R $EXT_DIR vscode:minitest:list
+/home/maciej/.rvm/gems/ruby-3.1.2/gems/bundler-2.4.10/lib/bundler/definition.rb:442:in `validate_ruby!': Your Ruby version is 3.1.2, but your Gemfile specified 3.2.2 (Bundler::RubyVersionMismatch)
+	from /home/maciej/.rvm/gems/ruby-3.1.2/gems/bundler-2.4.10/lib/bundler/definition.rb:417:in `validate_runtime!'
+	from /home/maciej/.rvm/gems/ruby-3.1.2/gems/bundler-2.4.10/lib/bundler.rb:165:in `setup'
+	from /home/maciej/.rvm/gems/ruby-3.1.2/gems/bundler-2.4.10/lib/bundler/setup.rb:23:in `block in <top (required)>'
+	from /home/maciej/.rvm/gems/ruby-3.1.2/gems/bundler-2.4.10/lib/bundler/ui/shell.rb:159:in `with_level'
+	from /home/maciej/.rvm/gems/ruby-3.1.2/gems/bundler-2.4.10/lib/bundler/ui/shell.rb:111:in `silence'
+	from /home/maciej/.rvm/gems/ruby-3.1.2/gems/bundler-2.4.10/lib/bundler/setup.rb:23:in `<top (required)>'
+	from <internal:/home/maciej/.rvm/rubies/ruby-3.1.2/lib/ruby/site_ruby/3.1.0/rubygems/core_ext/kernel_require.rb>:86:in `require'
+	from <internal:/home/maciej/.rvm/rubies/ruby-3.1.2/lib/ruby/site_ruby/3.1.0/rubygems/core_ext/kernel_require.rb>:86:in `require'
+	from /home/maciej/.rvm/rubies/ruby-3.1.2/lib/ruby/site_ruby/3.1.0/rubygems.rb:1370:in `<top (required)>'
+	from <internal:gem_prelude>:2:in `require'
+	from <internal:gem_prelude>:2:in `<internal:gem_prelude>'
+
+[2023-09-18 18:16:34.935] [ERROR] Output: 
+[2023-09-18 18:16:36.567] [INFO] Configuration changed
+[2023-09-18 18:16:38.679] [INFO] Configuration changed
+[2023-09-18 18:43:53.593] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/app/views/home/_hero.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-18 18:43:53.593] [INFO] Sending autorun event
+[2023-09-18 18:44:14.575] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/app/views/home/_hero.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-18 18:44:14.575] [INFO] Sending autorun event
+[2023-09-18 18:46:06.102] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/app/views/home/_hero.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-18 18:46:06.103] [INFO] Sending autorun event
+[2023-09-18 18:46:18.361] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/app/views/home/_hero.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-18 18:46:18.361] [INFO] Sending autorun event
+[2023-09-18 18:47:15.116] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/app/views/home/_hero.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-18 18:47:15.116] [INFO] Sending autorun event
+[2023-09-18 18:47:16.430] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/app/views/home/_hero.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-18 18:47:16.430] [INFO] Sending autorun event
+[2023-09-18 18:47:17.944] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/app/views/home/_hero.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-18 18:47:17.945] [INFO] Sending autorun event
+[2023-09-18 18:47:22.112] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/app/views/home/_hero.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-18 18:47:22.113] [INFO] Sending autorun event
+[2023-09-18 18:47:29.322] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/app/views/home/_hero.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-18 18:47:29.322] [INFO] Sending autorun event
+[2023-09-18 18:47:30.569] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/app/views/home/_hero.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-18 18:47:30.569] [INFO] Sending autorun event
