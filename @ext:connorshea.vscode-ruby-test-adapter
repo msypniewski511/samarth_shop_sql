@@ -46,3 +46,64 @@
 [2023-09-18 18:47:29.322] [INFO] Sending autorun event
 [2023-09-18 18:47:30.569] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/app/views/home/_hero.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
 [2023-09-18 18:47:30.569] [INFO] Sending autorun event
+[2023-09-18 18:50:12.374] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/config/storage.yml was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-18 18:50:12.374] [INFO] Sending autorun event
+[2023-09-18 18:50:13.730] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/config/storage.yml was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-18 18:50:13.731] [INFO] Sending autorun event
+[2023-09-18 18:50:23.797] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/config/storage.yml was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-18 18:50:23.798] [INFO] Sending autorun event
+[2023-09-19 17:31:10.192] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/app/views/layouts/storefront.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-19 17:31:10.193] [INFO] Sending autorun event
+[2023-09-19 17:31:14.983] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/app/views/layouts/storefront.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-19 17:31:14.983] [INFO] Sending autorun event
+[2023-09-19 17:31:16.341] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/app/views/layouts/storefront.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-19 17:31:16.341] [INFO] Sending autorun event
+[2023-09-19 18:34:17.965] [INFO] Configuration changed
+[2023-09-19 18:34:39.902] [INFO] Configuration changed
+[2023-09-19 18:35:03.832] [INFO] Configuration changed
+[2023-09-19 18:35:14.937] [INFO] Configuration changed
+[2023-09-19 18:36:00.986] [INFO] Configuration changed
+[2023-09-19 18:47:20.678] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/config/environments/production.rb was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-19 18:47:20.679] [INFO] Sending autorun event
+[2023-09-19 18:47:21.832] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/config/environments/production.rb was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-19 18:47:21.832] [INFO] Sending autorun event
+[2023-09-19 18:47:23.622] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/config/environments/production.rb was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-19 18:47:23.623] [INFO] Sending autorun event
+[2023-09-19 18:47:28.094] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/config/environments/production.rb was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-19 18:47:28.094] [INFO] Sending autorun event
+[2023-09-19 18:47:28.532] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/config/environments/production.rb was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-19 18:47:28.533] [INFO] Sending autorun event
+[2023-09-19 18:47:56.250] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/config/environments/development.rb was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-19 18:47:56.250] [INFO] Sending autorun event
+[2023-09-19 18:47:58.155] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/config/environments/development.rb was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-19 18:47:58.155] [INFO] Sending autorun event
+[2023-09-19 18:47:58.176] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/config/environments/development.rb was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-19 18:47:58.176] [INFO] Sending autorun event
+[2023-09-19 18:51:38.402] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/Gemfile was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-19 18:51:38.402] [INFO] Sending autorun event
+[2023-09-19 18:51:38.510] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/Gemfile was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-19 18:51:38.510] [INFO] Sending autorun event
+[2023-09-19 19:11:19.201] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/config/storage.yml was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-19 19:11:19.201] [INFO] Sending autorun event
+[2023-09-19 19:11:21.265] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/config/storage.yml was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-19 19:11:21.265] [INFO] Sending autorun event
+[2023-09-19 19:11:29.799] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/config/storage.yml was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-19 19:11:29.799] [INFO] Sending autorun event
+[2023-09-19 19:11:42.818] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/config/storage.yml was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-19 19:11:42.818] [INFO] Sending autorun event
+[2023-09-19 19:11:47.358] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/config/storage.yml was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-19 19:11:47.358] [INFO] Sending autorun event
+[2023-09-19 19:11:50.639] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/config/storage.yml was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-19 19:11:50.639] [INFO] Sending autorun event
+[2023-09-19 19:11:57.358] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/config/storage.yml was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-19 19:11:57.358] [INFO] Sending autorun event
+[2023-09-19 19:11:57.781] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/config/storage.yml was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-19 19:11:57.781] [INFO] Sending autorun event
+[2023-09-19 19:27:41.812] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/config/storage.yml was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-19 19:27:41.812] [INFO] Sending autorun event
+[2023-09-19 19:27:41.977] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/config/storage.yml was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-19 19:27:41.977] [INFO] Sending autorun event
+[2023-09-20 15:12:08.541] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/config/storage.yml was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-20 15:12:08.542] [INFO] Sending autorun event
+[2023-09-20 15:12:09.109] [INFO] /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer/config/storage.yml was saved - checking if this effects /home/maciej/ruby-teraz/korwa_ostatni_raz/amazing_storer
+[2023-09-20 15:12:09.109] [INFO] Sending autorun event

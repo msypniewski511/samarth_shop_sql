@@ -105,3 +105,4 @@ group :production do
 end
 
 gem "solidus_paypal_commerce_platform", "~> 1.0"
+gem 'aws-sdk-s3'
