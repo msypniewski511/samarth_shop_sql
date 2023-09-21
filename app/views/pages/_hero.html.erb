@@ -1,0 +1,49 @@
+<section class="hero">
+  <div class="hero__container">
+    <aside>
+      <h1 class="hero-title">
+        The only eCommerce platform Samarth’ll ever need.
+      </h1>
+    </aside>
+    <div class="hero__message">
+      <%# <h1 class="hero-title">
+        The only eCommerce platform Samarth’ll ever need.
+      </h1> %>
+
+      <p class="subtitle">
+        Build, customize and scale your store with no limits or license fees.
+        Solidus is the free, open-source eCommerce framework for
+        digitally-native brands, fast-growing online businesses and pragmatic
+        developers.
+      </p>
+      <picture class="card">
+        <%= render(ImageComponent.new(
+          image: Spree::Product.last.gallery.images.first,
+          size: :product,
+          itemprop: "image",
+          data: { js: 'product-main-image' }
+        )) %>
+      </picture>
+    </div>
+  </div>
+  <script>
+    document.body.onmousemove = (e) => {
+    document.body.style.setProperty("--mouse-x", e.clientX);
+    document.body.style.setProperty("--mouse-y", e.clientY);
+  };
+  </script>
+</section>
+
+<div class="category-navigation">
+  <% categories = taxonomies.first %>
+
+  <nav class="categories">
+    <% cache [I18n.locale, categories, taxon] do %>
+      <%= render(TaxonsTreeComponent.new(
+        root_taxon: categories.root,
+        current_taxon: taxon,
+        max_level: 1,
+        base_class: 'categories')) if categories %>
+    <% end %>
+  </nav>
+</div>
