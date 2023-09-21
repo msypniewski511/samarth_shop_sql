@@ -4,7 +4,17 @@
   padding: 10rem 0;
 
   &__container {
+    min-height: 80vh;
     @extend %section-spacings;
     display: flex;
+    flex-direction: row;
+  }
+
+  & h1 {
+    transform-origin: bottom;
+    transform: rotate(270deg);
+  }
+  & &-title {
+    font-size: 12rem;
   }
 }
