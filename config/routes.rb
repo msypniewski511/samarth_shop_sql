@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  mount SolidusStripe::Engine, at: '/solidus_stripe'
   mount SolidusPaypalCommercePlatform::Engine, at: '/solidus_paypal_commerce_platform'
   root to: 'pages#home'
 
