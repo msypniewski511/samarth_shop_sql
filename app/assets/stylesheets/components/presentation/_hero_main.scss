@@ -1,0 +1,68 @@
+.hero {
+  &_main {
+    background: $color-background-dark;
+    color: $color-copy-bright;
+    padding: 10rem 0;
+    height: 100vh;
+
+    &__container {
+      position: relative;
+      min-height: 80vh;
+      width: 100vw;
+      @extend %section-spacings;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      & aside {
+        width: 30vw;
+        padding: 5rem;
+        border-right: 2px solid white;
+        a {
+          z-index: 1;
+          display: inline-block;
+          color: white;
+          font-size: 2rem;
+          text-align: right;
+          position: absolute;
+          top: rem;
+          left: 0;
+          transform-origin: top left;
+          transform: translateY(100%) rotate(-90deg);
+        }
+      }
+      & .wrap {
+        width: 80vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: white;
+        // border: 1px solid grey;
+        // padding: 0.25em;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transform-origin: top left;
+        transform: translateY(100%) rotate(-90deg);
+
+        .hero-title {
+          display: inline-block;
+          width: 50vh;
+          font-size: 4.88rem;
+          font-weight: 700;
+          line-height: 1.5;
+          margin: 0;
+        }
+      }
+      & h1 {
+      }
+      & .hero__message {
+        padding-left: 5rem;
+        .product_front_page {
+          display: flex;
+          flex-direction: row-reverse;
+          justify-content: space-between;
+        }
+      }
+    }
+  }
+}

@@ -1,29 +1,60 @@
-<section class="hero">
-  <div class="hero__container">
+<section class="hero_main">
+  <div class="hero_main__container">
     <aside>
-      <h1 class="hero-title">
-        The only eCommerce platform Samarth’ll ever need.
-      </h1>
+      <%= link_to 'Samarth Shop',  home_index_path %>
+      <div class="wrap">
+        <h1 class="hero-title">
+          The only eCommerce platform Samarth’ll ever need.
+        </h1>
+        <%# link_to 'Samarth Shop',  home_index_path %>
+      </div>
     </aside>
     <div class="hero__message">
-      <%# <h1 class="hero-title">
-        The only eCommerce platform Samarth’ll ever need.
-      </h1> %>
+      <div class="product_front_page">
+        <ul class="product-thumbnails">
+          <% @product.gallery.images.each do |image| %>
+            <% next if image.viewable_id != @product.master.id %>
 
+            <%= content_tag(
+              :li,
+              class: 'product-thumbnails__all',
+              data: { js: 'product-thumbnail', js_id: image.viewable_id }
+            ) do %>
+              <%= link_to(image_tag(image.url(:mini)), image.url(:product)) %>
+            <% end %>
+          <% end %>
+
+          <% if @product.has_variants? %>
+            <% @product.gallery.images.each do |image| %>
+              <% next if image.viewable_id == @product.master.id %>
+
+              <%= content_tag(
+                :li,
+                class: 'product-thumbnails__variant',
+                data: { js: 'variant-thumbnail', js_id: image.viewable_id }
+              ) do %>
+                <%= link_to(image_tag(image.url(:mini)), image.url(:product)) %>
+              <% end %>
+            <% end %>
+          <% end %>
+        </ul>
+        <%= link_to product_path(Spree::Product.last.id) do %>
+          <picture class="card">
+            <%= render(ImageComponent.new(
+              image: Spree::Product.last.gallery.images.first,
+              size: :product,
+              itemprop: "image",
+              data: { js: 'product-main-image' }
+            )) %>
+          </picture>
+        <% end %>
+      </div>
       <p class="subtitle">
         Build, customize and scale your store with no limits or license fees.
         Solidus is the free, open-source eCommerce framework for
         digitally-native brands, fast-growing online businesses and pragmatic
         developers.
       </p>
-      <picture class="card">
-        <%= render(ImageComponent.new(
-          image: Spree::Product.last.gallery.images.first,
-          size: :product,
-          itemprop: "image",
-          data: { js: 'product-main-image' }
-        )) %>
-      </picture>
     </div>
   </div>
   <script>

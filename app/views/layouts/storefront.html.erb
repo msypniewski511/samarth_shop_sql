@@ -80,10 +80,11 @@
     </style>
   </head>
   <body class="<%= body_class %>" id="<%= @body_id || 'default' %>" data-turbo="false">
-    <%= render 'layouts/header', taxons: @taxons, taxon: @taxon %>
-    <%= flash_messages %>
-    <%= render BreadcrumbsComponent.new(@taxon) %>
-    
+    <% if controller_name != 'pages' %>
+      <%= render 'layouts/header', taxons: @taxons, taxon: @taxon %>
+      <%= flash_messages %>
+      <%= render BreadcrumbsComponent.new(@taxon) %>
+    <% end %>
     <main>
       <%= yield %>
     </main>
