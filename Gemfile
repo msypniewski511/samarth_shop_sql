@@ -75,7 +75,7 @@ gem "responders"
 gem "canonical-rails"
 gem "solidus_support"
 gem "truncate_html"
-gem "view_component", "~> 3.0"
+gem "view_component", "~> 3.9"
 
 group :test do
   gem "capybara"
